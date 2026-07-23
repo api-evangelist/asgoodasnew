@@ -1,7 +1,24 @@
 aid: asgoodasnew
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/asgoodasnew.png
 name: asgoodasnew
-description: asgoodasnew is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: asgoodasnew is a German e-commerce retailer of refurbished and pre-owned consumer electronics,
+  including smartphones, tablets, laptops, cameras, and related accessories, sold with warranty through its
+  online store at asgoodasnew.de (asgoodasnew.com redirects there). It was surfaced as a portfolio company
+  of Point Nine and added to the API Evangelist network as a lead. Probing the public surface found no
+  developer portal, API documentation, or API host — this is a consumer-facing storefront with no public
+  API program at this time. The profile is retained as a portfolio lead; only mechanical domain-security
+  signals for the web host could be captured.
 url: https://raw.githubusercontent.com/api-evangelist/asgoodasnew/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Ecommerce
+- Retail
+- Refurbished Electronics
+- Consumer Electronics
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/asgoodasnew-domain-security.yml
 - type: Website
   url: https://asgoodasnew.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
