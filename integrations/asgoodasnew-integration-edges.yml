@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/asgoodasnew/integrations
+- https://n8n.io/integrations/asgoodasnew/
+- https://composio.dev/toolkits/asgoodasnew
+- https://monid.ai/tools/asgoodasnew
+checked:
+- https://composio.dev/toolkits/asgoodasnew
+- https://monid.ai/tools/asgoodasnew
+- https://n8n.io/integrations/asgoodasnew/
+- https://zapier.com/apps/asgoodasnew/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
